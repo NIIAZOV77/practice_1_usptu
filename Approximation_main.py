@@ -122,7 +122,7 @@ def approximation():
             plt.scatter(xList, yList)
 
             plt.show()
-    # Функция создания списка из всез значения фи
+    # Функция создания списка из всех значений фи
     def listPhi(a, b, xList, yList):
         try:
             phi0 = float(cost_func(a, b, xList, yList, 0))
